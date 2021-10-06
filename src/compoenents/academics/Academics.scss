@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,7 +33,7 @@
   }
 
   .keyfeaturs {
-    padding-top: 190px;
+    padding-top: 490px;
   }
 }
 // ----------------------Card4-----------------------------------------
@@ -85,12 +85,12 @@
     h3 {
       font-size: 24px;
       font-weight: 100;
-      font-family: "Noto Serif", serif;
+      font-family: 'Noto Serif', serif;
     }
     p {
       font-size: 16px;
       font-weight: 100;
-      font-family: "Noto Serif", serif;
+      font-family: 'Noto Serif', serif;
     }
   }
 }
@@ -239,9 +239,9 @@
   }
 }
 // propersties section---------------------------------
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 .properties {
   // border: 2px solid white;
   height: 60vh;
@@ -275,14 +275,14 @@
         color: white;
         font-size: 25px;
         font-weight: 100;
-        font-family: "Noto Serif", serif;
+        font-family: 'Noto Serif', serif;
       }
 
       p {
         font-size: 16px;
         color: rgba(255, 255, 255, 0.64);
         font-weight: 300;
-        font-family: "IBM Plex Sans", sans-serif;
+        font-family: 'IBM Plex Sans', sans-serif;
         line-height: 1.5;
       }
     }
@@ -358,9 +358,5 @@
         font-size: 20px;
       }
     }
-  }
-
-  .keyfeaturs {
-    padding-top: 490px;
   }
 }

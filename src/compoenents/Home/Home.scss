@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .header-wrapper {
-  background-color: #0d101e;
+  background-color: #ffffff; // changed..........new
 }
 .main-info {
   // border: 2px solid white;
@@ -17,7 +17,7 @@
   align-items: center;
   background-color: #0d101e;
   h1 {
-    font-family: "Noto Serif", serif;
+    font-family: 'Noto Serif', serif;
     // color: white;
     font-size: 72px;
     background: linear-gradient(to right, #00c3ff, #ffff1c);
@@ -32,14 +32,14 @@
   }
   .typed-text {
     font-size: 45px;
-    font-family: "Noto Serif", serif;
+    font-family: 'Noto Serif', serif;
   }
 }
 
 // property cards-----------------------------------------
-@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 // associations
 .associations {
@@ -52,11 +52,11 @@
   margin-top: 130px;
 }
 h1 {
-  font-family: "Noto Serif", serif;
+  font-family: 'Noto Serif', serif;
 }
 h2 {
-  font-family: "Noto Serif", serif;
+  font-family: 'Noto Serif', serif;
 }
 h5 {
-  font-family: "Noto Serif", serif;
+  font-family: 'Noto Serif', serif;
 }
