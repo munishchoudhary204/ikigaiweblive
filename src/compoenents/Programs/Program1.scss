@@ -1,0 +1,329 @@
+.prog1head {
+  background-color: #0d101e;
+  height: 90vh;
+  width: 100%;
+  // border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .lefthead {
+    // border: 2px solid white;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 4rem;
+    h1 {
+      font-size: 50px;
+      color: white;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      text-align: left;
+      color: white;
+      margin-bottom: 3rem;
+    }
+  }
+  .righthead {
+    // border: 2px solid white;
+    padding-top: 3rem;
+    height: 70%;
+    width: 40%;
+    background-image: url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80);
+    background-blend-mode: lighten;
+    opacity: 0.7;
+    background-blend-mode: screen;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .prog1head {
+    display: none;
+  }
+}
+
+.Academicsindividual {
+  background-color: #0d101e;
+  display: none;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70vh;
+  color: #f0f5ff;
+  // border: 2px solid white;
+  h1 {
+    font-size: 60px;
+    // text-shadow: 0px 0px 20px #3485e4;
+  }
+  h5 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .Academicsindividual {
+    background-color: #0d101e;
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    color: #f0f5ff;
+    h1 {
+      font-size: 24px;
+    }
+    h5 {
+      font-size: 18px;
+    }
+  }
+
+  .keyfeaturs {
+    padding-top: 190px;
+  }
+}
+
+// ------------Online learnigng section
+.onlinelearn {
+  height: 60vh;
+  width: 100%;
+  // border: 2px solid wheat;
+  background-color: #0d101e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .online {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // border: 2px solid white;
+    width: 80%;
+    height: 30%;
+    img {
+      height: 50px;
+      width: 50px;
+    }
+    .learnholder {
+      h3 {
+        color: white;
+        font-weight: 100;
+      }
+    }
+  }
+}
+// --------------------collaborations section
+.collabs {
+  height: 80vh;
+  width: 100%;
+  background-color: #0d101e;
+  // border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .collabholder {
+    display: flex;
+    width: 60%;
+    // border: 2px solid white;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    img {
+      margin: 2rem;
+      // border-radius: .4rem;
+    }
+  }
+}
+// -------------------------------------------------------------------
+
+// --------------------program details--------------------------------
+.programdetailsp1 {
+  background-color: #0d101e;
+  color: white;
+  h2 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+  }
+  .firstprogramp1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    .leftsidep1 {
+      width: 40%;
+      background-color: #202330;
+      border: 2px solid #73c4fa;
+      height: 45vh;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .rightsidep1 {
+      line-height: 2rem;
+      width: 50%;
+      text-align: left;
+      h2 {
+        font-size: 42px;
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
+      }
+      p {
+        margin-left: 2rem;
+        line-height: 1.5rem;
+        font-size: 15px;
+        font-family: 'Noto Serif', serif;
+      }
+      button {
+        padding: 0.7rem;
+        margin-top: 1rem;
+        background-color: #3485e4;
+        border: 1px solid #017a9b;
+        color: white;
+        width: 20%;
+        outline: none;
+        border-radius: 8px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}
+
+// ------testimonials program1
+.testp1 {
+  height: 80vh;
+  width: 100%;
+  background-color: #0d101e;
+  // border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .testcard {
+    height: 60%;
+    margin: 1rem;
+    background-color: #202330;
+    width: 30%;
+    // border: 2px solid white;
+    text-align: left;
+    padding: 3rem;
+    color: white;
+    h1 {
+      font-weight: 100;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      line-height: 1.2;
+    }
+  }
+}
+
+// -----------------join now----------------------------------------------
+.joinnowp1 {
+  background-color: #0d101e;
+  color: white;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  h1 {
+    line-height: 40px;
+    font-weight: 400;
+  }
+  button {
+    color: white;
+    background-color: #202330;
+    border: 2px solid rgba(0, 151, 251, 0.15);
+    height: 15%;
+    width: 20%;
+    border-radius: 2rem;
+    cursor: pointer;
+    &:hover {
+      border: 2px solid rgba(0, 151, 251, 0.25);
+      box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+    }
+  }
+}
+// associations
+.associationsp1 {
+  background-color: #f5f8fa;
+  // margin-bottom: 2rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Noto Serif', serif;
+    // margin-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
+.joinnowat {
+  background-color: #0d101e;
+  color: white;
+  height: 80vh;
+  //   padding-top: 120px;
+  //   padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  h1 {
+    line-height: 40px;
+    margin-top: 46px;
+  }
+  h2 {
+    font-size: 20px;
+    // margin-bottom: 90px;
+  }
+  button {
+    color: white;
+    background-color: #202330;
+    border: 2px solid rgba(0, 151, 251, 0.15);
+    height: 8%;
+    width: 20%;
+    border-radius: 2rem;
+    cursor: pointer;
+    &:hover {
+      border: 2px solid rgba(0, 151, 251, 0.25);
+      box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+    }
+  }
+}
+@media (max-width: 500px) {
+  .joinnowat {
+    padding-top: 50px;
+    h1 {
+      line-height: 20px;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    button {
+      width: 60%;
+    }
+  }
+}

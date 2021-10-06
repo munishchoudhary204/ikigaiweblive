@@ -1,0 +1,137 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+.online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  //  background-color: white;
+  background-color: #0d101e;
+  height: 30vh;
+  padding-top: 130px;
+  padding-bottom: 270px;
+  .boxholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    .boxi {
+      border-bottom: 2px solid rgba(0, 151, 251, 0.25);
+      border-left: 2px solid rgba(0, 151, 251, 0.25);
+      border-right: 2px solid rgba(0, 151, 251, 0.25);
+      // border: 2px solid rgba(0,151,251,0.25);
+      // box-shadow: 0px 4px 20px rgba(0,151,251,0.25);
+      width: 23%;
+      height: 100%;
+      text-align: center;
+    }
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    // margin-top: 100px;
+    color: white;
+    font-family: 'Noto-sans';
+  }
+
+  .cyan {
+    border-top: 3px solid var(--cyan);
+  }
+  .red {
+    border-top: 3px solid var(--red);
+  }
+  .blue {
+    border-top: 3px solid var(--blue);
+  }
+  .orange {
+    border-top: 3px solid var(--orange);
+  }
+
+  h2 {
+    color: white;
+    font-family: 'Noto-sans';
+    font-weight: var(--weight2);
+  }
+}
+
+@media (max-width: 500px) {
+  .online {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0d101e;
+    height: 30vh;
+    padding-top: 330px;
+    padding-bottom: 530px;
+    .boxholder {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 90%;
+      .boxi {
+        border-bottom: 2px solid rgba(0, 151, 251, 0.25);
+        border-left: 2px solid rgba(0, 151, 251, 0.25);
+        border-right: 2px solid rgba(0, 151, 251, 0.25);
+        // border: 2px solid rgba(0,151,251,0.25);
+        // box-shadow: 0px 4px 20px rgba(0,151,251,0.25);
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+      }
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .header {
+      text-align: center;
+      line-height: 0.8;
+      margin-bottom: 3rem;
+      padding-top: 2rem;
+      // margin-top: 100px;
+      color: white;
+      font-family: 'Noto-sans';
+    }
+
+    .cyan {
+      border-top: 3px solid var(--cyan);
+    }
+    .red {
+      border-top: 3px solid var(--red);
+    }
+    .blue {
+      border-top: 3px solid var(--blue);
+    }
+    .orange {
+      border-top: 3px solid var(--orange);
+    }
+
+    h2 {
+      color: white;
+      font-family: 'Noto-sans';
+      font-weight: var(--weight2);
+    }
+  }
+}

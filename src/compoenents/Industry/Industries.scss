@@ -1,0 +1,198 @@
+//stats section---------------------------------
+.statsi {
+  background-color: #0d101e;
+  // border: 2px solid white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .statholderi {
+    // border: 2px solid white;
+    border-top: 2px solid white;
+    height: 30%;
+    width: 80%;
+    // text-align: left;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h1 {
+      font-size: 40px;
+      line-height: 55px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .statcontenti {
+    // border: 2px solid white;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    // border-bottom: 2px solid white;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 100;
+    }
+    h6 {
+      font-size: 18px;
+      font-weight: lighter;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .statsi {
+    padding-top: 550px;
+    padding-bottom: 480px;
+    background-color: #0d101e;
+    // border: 2px solid white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .statcontenti {
+      // border: 2px solid white;
+      //   height: 100%;
+      //   width: 100%;
+      display: flex;
+
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      // border-bottom: 2px solid white;
+      .statdata {
+        display: flex;
+        padding-top: 70px;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: 20;
+      }
+      h6 {
+        font-size: 18px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .programdetails {
+    // border: 2px solid white;
+    display: none;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+    p {
+      font-size: 15px;
+      margin-top: 0.2rem;
+    }
+    .firstprogram {
+      // border: 2px solid white;
+      width: 100%;
+      height: 90%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .leftside {
+        // width: 100%;
+        display: none;
+      }
+      .rightside {
+        border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90%;
+        text-align: center;
+      }
+    }
+  }
+}
+.programnamesin {
+  height: 60vh;
+  background-color: #0d101e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: 2px solid white;
+  padding: 2rem;
+  .progholderin {
+    // border: 2px solid white;
+    width: 75%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // align-items: center;
+    flex-wrap: wrap;
+  }
+  .programcardin {
+    //  background-color: #092834;
+    background-color: #202330;
+    padding: 2rem;
+    width: 48%;
+    height: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    //  align-items: center;
+    border-radius: 1rem;
+    //  text-align: left;
+    h3 {
+      font-size: 24px;
+      font-weight: 100;
+      font-family: 'Noto Serif', serif;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 100;
+      font-family: 'Noto Serif', serif;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .programnamesin {
+    // border: 2px solid white;
+    .progholderin {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      .programcardin {
+        width: 100%;
+        height: 10%;
+        margin-top: 20px;
+        height: fit-content;
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-wrapper {
+  background-color: #0d101e;
+}
+.main-info {
+  // border: 2px solid white;
+  color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d101e;
+  h1 {
+    font-family: "Noto Serif", serif;
+    // color: white;
+    font-size: 72px;
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // text-shadow: 2px 8px 40px #3485e4;
+  }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 25px;
+    }
+  }
+  .typed-text {
+    font-size: 45px;
+    font-family: "Noto Serif", serif;
+  }
+}
+
+// property cards-----------------------------------------
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+// associations
+.associations {
+  background-color: white;
+  // margin-bottom: 2rem;
+  height: 50vh;
+}
+
+.js {
+  margin-top: 130px;
+}
+h1 {
+  font-family: "Noto Serif", serif;
+}
+h2 {
+  font-family: "Noto Serif", serif;
+}
+h5 {
+  font-family: "Noto Serif", serif;
+}

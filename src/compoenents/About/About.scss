@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+.aboutcont {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+
+  .about-section {
+    // background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background: url(https://images.unsplash.com/photo-1536148935331-408321065b18?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    // padding: 50px 0;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+    .inner-container {
+      width: 55%;
+      float: right;
+      background-color: #fdfdfd;
+      padding: 150px;
+    }
+
+    .inner-container h1 {
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .text {
+      font-size: 16px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .inner-container {
+      padding: 80px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .about-section {
+      background-size: 100%;
+      padding: 100px 40px;
+    }
+    .inner-container {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-section {
+      padding: 0;
+    }
+    .inner-container {
+      padding: 60px;
+    }
+  }
+}
+// mission--------------------
+.mission {
+  // background-image: linear-gradient(45deg, #7175da, #9790F2);
+  // background: hsl(210, 46%, 95%);
+  background-color: white;
+  font-family: 'Noto Serif', serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  h1 {
+    color: black;
+    font-size: 48px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+  }
+  .course {
+    background-color: #fff;
+    border-radius: 10px;
+    // box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 700px;
+  }
+
+  .course h6 {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: serif;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .course h2 {
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+
+  .course-preview {
+    background-color: #2a265f;
+    color: #fff;
+    padding: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .course-preview a {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+
+  .course-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+  }
+}
+// leadership.-----------------
+.leadership {
+  h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 45px;
+    font-weight: 300;
+  }
+  background-color: #e7e9f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65rem;
+  .leaders {
+    background-color: #e7e9f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 60rem;
+    .card {
+      padding: 50px 32px;
+      background: #fff;
+      width: 23%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 30px;
+      transition: 0.4s;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+          rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      }
+      // border: 2px solid black;
+      .user {
+        &-avatar {
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        &-type {
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 5px 20px;
+          margin-top: 16px;
+          font-weight: 500;
+          border-radius: 6px;
+          background: var(--secondary);
+          color: var(--primary);
+        }
+
+        &-name {
+          font-size: 18px;
+          margin-top: 20px;
+          margin-bottom: 6px;
+          font-weight: bold;
+          color: var(--primary);
+        }
+
+        &-job__title {
+          color: var(--primary);
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .leaderss {
+    background-color: #e7e9f0;
+  }
+  .leadership {
+    margin-bottom: 245vh;
+    background-color: #e7e9f0;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    h1 {
+      font-family: 'Noto Serif', serif;
+      font-size: 23px;
+      font-weight: 300;
+    }
+    .leaders {
+      background-color: #e7e9f0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      //   height: 60rem;
+      .card {
+        padding: 50px 32px;
+        background: #fff;
+        width: 90%;
+        height: 250px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px;
+        transition: 0.4s;
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+            rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+        // border: 2px solid black;
+        .user {
+          &-avatar {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          &-type {
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 5px 20px;
+            margin-top: 16px;
+            font-weight: 500;
+            border-radius: 6px;
+            background: var(--secondary);
+            color: var(--primary);
+          }
+
+          &-name {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: var(--primary);
+          }
+
+          &-job__title {
+            color: var(--primary);
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

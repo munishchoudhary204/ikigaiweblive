@@ -1,0 +1,17 @@
+.card{
+    width: 40vw;
+    height: 6rem;
+    background: linear-gradient(154.91deg, #BBC9FF 0%, #9EA9E6 100%);
+    box-shadow: 5px 5px 15px #8791C4, -5px -5px 15px #D7E7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  @media(max-width:768px){
+    .card{
+    width: 90vw;
+  }
+  }
+ 
