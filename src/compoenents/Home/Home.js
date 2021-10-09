@@ -153,7 +153,7 @@ const Home = () => {
       </div>
 
       <div
-        className="ikigai-keypoints m-5 text-center"
+        className="ikigai-keypoints p-5 text-center"
         style={{ backgroundColor: 'white' }}
       >
         <h1 className="text-center">
