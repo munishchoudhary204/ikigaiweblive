@@ -1,27 +1,27 @@
-import React from "react";
-import Button1 from "../../styled compponents/Buttons/Button1";
-import Typed from "react-typed";
-import "./Home.scss";
-import "./Home.css";
-import CardPanel from "../../styled compponents/Cards/CardPanel";
-import Testimonial from "./Testimonials/Testimonial";
-import Joinus from "../Home/Joinus/Joinus";
-import Asociate from "../Associations/Asociate";
-import { Link } from "react-router-dom";
-import { Row, Col, Card, Container, CardGroup } from "react-bootstrap";
+import React from 'react';
+import Button1 from '../../styled compponents/Buttons/Button1';
+import Typed from 'react-typed';
+import './Home.scss';
+import './Home.css';
+import CardPanel from '../../styled compponents/Cards/CardPanel';
+import Testimonial from './Testimonials/Testimonial';
+import Joinus from '../Home/Joinus/Joinus';
+import Asociate from '../Associations/Asociate';
+import { Link } from 'react-router-dom';
+import { Row, Col, Card, Container, CardGroup } from 'react-bootstrap';
 
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
-import government from "../../assets/government.png";
-import shweta from "../../images/shweta.jpg";
-import jaskaran from "../../images/jaskaran.jpg";
+import government from '../../assets/government.png';
+import shweta from '../../images/shweta.jpg';
+import jaskaran from '../../images/jaskaran.jpg';
 
-import akhil from "../../images/akhil.jpg";
-import ritik from "../../images/ritik.jpg";
+import akhil from '../../images/akhil.jpg';
+import ritik from '../../images/ritik.jpg';
 
-import PSubrah from "../../images/PSubrah.jpg";
-import Manish from "../../images/Manish.jpg";
+import PSubrah from '../../images/PSubrah.jpg';
+import Manish from '../../images/Manish.jpg';
 
 const responsiveTestimonial = {
   superLargeDesktop: {
@@ -45,20 +45,20 @@ const responsiveTestimonial = {
 
 const IkigaiKeypoints = [
   {
-    title: "Case Studies",
-    text: "All programs are equipped with real case studies to give you a holistic view of the problem and its solution",
+    title: 'Case Studies',
+    text: 'All programs are equipped with real case studies to give you a holistic view of the problem and its solution',
   },
   {
-    title: "Capstone Learnings",
-    text: "Capstone Projects at the end of each program to ensure that you can apply your learnings",
+    title: 'Capstone Learnings',
+    text: 'Capstone Projects at the end of each program to ensure that you can apply your learnings',
   },
   {
-    title: "Top Associations",
-    text: "Association with institutions like IIT Kanpur, IIT Patna, GLA University, IIT Ropar, etc.",
+    title: 'Top Associations',
+    text: 'Association with institutions like IIT Kanpur, IIT Patna, GLA University, IIT Ropar, etc.',
   },
   {
-    title: "Applied Research",
-    text: "Ecosystem of research labs across seven IITs to bring Industry and Academia Together",
+    title: 'Applied Research',
+    text: 'Ecosystem of research labs across seven IITs to bring Industry and Academia Together',
   },
 ];
 
@@ -74,7 +74,7 @@ const Home = () => {
         <br />
         <Typed
           className="typed-text"
-          strings={["Individuals", "Academics", "Industry", "Goverment"]}
+          strings={['Individuals', 'Academics', 'Industry', 'Goverment']}
           typeSpeed={40}
           backSpeed={60}
           loop
@@ -86,7 +86,7 @@ const Home = () => {
 
       <div className="four-card-img text-center">
         <div class="row1-container">
-          <div class="box box-down cyan" style={{ backgroundColor: "white" }}>
+          <div class="box box-down cyan" style={{ backgroundColor: 'white' }}>
             <h2>Individuals</h2>
             <p>Students and Working Professionals</p>
             <img
@@ -96,13 +96,13 @@ const Home = () => {
             <div className="end">
               <Link
                 to="/program1"
-                style={{ color: "Blue", textDecoration: "none" }}
+                style={{ color: 'Blue', textDecoration: 'none' }}
               >
                 Explore more <p className="far fa-arrow-alt-circle-right "></p>
               </Link>
             </div>
           </div>
-          <div class="box red" style={{ backgroundColor: "white" }}>
+          <div class="box red" style={{ backgroundColor: 'white' }}>
             <h2>Academics</h2>
             <p>For Institutions</p>
             <img
@@ -112,13 +112,13 @@ const Home = () => {
             <div className="end">
               <Link
                 to="/academics"
-                style={{ color: "Blue", textDecoration: "none" }}
+                style={{ color: 'Blue', textDecoration: 'none' }}
               >
                 Explore more <p className="far fa-arrow-alt-circle-right "></p>
               </Link>
             </div>
           </div>
-          <div class="box box-down blue" style={{ backgroundColor: "white" }}>
+          <div class="box box-down blue" style={{ backgroundColor: 'white' }}>
             <h2>Industry</h2>
             <p>For Businesses</p>
             <img
@@ -128,7 +128,7 @@ const Home = () => {
             <div className="end">
               <Link
                 to="/industry"
-                style={{ color: "Blue", textDecoration: "none" }}
+                style={{ color: 'Blue', textDecoration: 'none' }}
               >
                 Explore more <p className="far fa-arrow-alt-circle-right "></p>
               </Link>
@@ -136,14 +136,14 @@ const Home = () => {
           </div>
         </div>
         <div class="row2-container">
-          <div class="box orange" style={{ backgroundColor: "white" }}>
+          <div class="box orange" style={{ backgroundColor: 'white' }}>
             <h2>Government</h2>
             <p>For Government Institutions</p>
             <img src={government} height="70px" alt="" />
             <div className="end">
               <Link
                 to="/government"
-                style={{ color: "Blue", textDecoration: "none" }}
+                style={{ color: 'Blue', textDecoration: 'none' }}
               >
                 Explore more <p className="far fa-arrow-alt-circle-right "></p>
               </Link>
@@ -164,9 +164,9 @@ const Home = () => {
               <CardGroup>
                 <Card
                   style={{
-                    backgroundColor: "black",
-                    color: "white",
-                    borderRadius: "30px",
+                    backgroundColor: 'black',
+                    color: 'white',
+                    borderRadius: '30px',
                   }}
                   className="py-5 shadow "
                 >
@@ -189,7 +189,7 @@ const Home = () => {
       <div className="m-5">
         <h1
           className="text-center "
-          style={{ marginTop: "130px", marginBottom: "40px" }}
+          style={{ marginTop: '130px', marginBottom: '40px' }}
         >
           Testimonials
         </h1>
@@ -214,7 +214,7 @@ const Home = () => {
                 </div>
                 <p
                   class="card-text text-justify"
-                  style={{ textAlign: "justify", wordSpacing: "-2px" }}
+                  style={{ textAlign: 'justify', wordSpacing: '-2px' }}
                 >
                   <i className="fas fa-quote-left"></i> It was an amazing class
                   where we learnt the practical aspect of AI & ML. The lectures
@@ -245,7 +245,7 @@ const Home = () => {
                 </div>
                 <p
                   class="card-text text-justify"
-                  style={{ textAlign: "justify", wordSpacing: "-2px" }}
+                  style={{ textAlign: 'justify', wordSpacing: '-2px' }}
                 >
                   <i className="fas fa-quote-left"></i> Thank you for conducting
                   one day program on Artificial Intelligence (AI) to our top
@@ -273,7 +273,7 @@ const Home = () => {
                 </div>
                 <p
                   class="card-text text-justify "
-                  style={{ textAlign: "justify", wordSpacing: "-2px" }}
+                  style={{ textAlign: 'justify', wordSpacing: '-2px' }}
                 >
                   <i className="fas fa-quote-left"></i> The course provides good
                   balance of less theory and more practical. Trainers explained
@@ -303,7 +303,7 @@ const Home = () => {
                 </div>
                 <p
                   class="card-text text-justify "
-                  style={{ textAlign: "justify", wordSpacing: "-2px" }}
+                  style={{ textAlign: 'justify', wordSpacing: '-2px' }}
                 >
                   <i className="fas fa-quote-left"></i> I am really learning a
                   lot and feel like I am ahead of the curve. The teachers at
@@ -333,7 +333,7 @@ const Home = () => {
                 </div>
                 <p
                   class="card-text text-justify "
-                  style={{ textAlign: "justify", wordSpacing: "-2px" }}
+                  style={{ textAlign: 'justify', wordSpacing: '-2px' }}
                 >
                   <i className="fas fa-quote-left"></i> The course was very well
                   planned to make the Data science understandable to a fresher
@@ -364,7 +364,7 @@ const Home = () => {
                 </div>
                 <p
                   class="card-text text-justify "
-                  style={{ textAlign: "justify", wordSpacing: "-2px" }}
+                  style={{ textAlign: 'justify', wordSpacing: '-2px' }}
                 >
                   <i className="fas fa-quote-left"></i> This training helps to
                   build my skill set in all prerequisites which are required for
@@ -383,15 +383,18 @@ const Home = () => {
       </div>
 
       <div className="associations ">
-        <h1 className="text-center " style={{ marginTop: "80px" }}>
+        <h1 className="text-center " style={{ marginTop: '80px' }}>
           We collaborate with Top leading Universities and Companies
         </h1>
-        <div style={{ marginTop: "80px", height: "60vh" }}>
+        <div style={{ marginTop: '80px', height: '60vh' }}>
           <Asociate />
         </div>
       </div>
 
-      <div className="js" style={{ marginBottom: "50px" }}>
+      <div
+        className="js"
+        style={{ marginBottom: '50px', backgroundColor: 'white' }}
+      >
         <Joinus />
       </div>
     </>

@@ -11,7 +11,6 @@ const Footer = () => {
         style={{
           backgroundColor: '#0F152F',
           color: 'grey',
-          justifyContent: 'left',
         }}
       >
         <Container
