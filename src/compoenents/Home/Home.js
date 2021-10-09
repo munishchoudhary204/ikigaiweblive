@@ -189,11 +189,11 @@ const Home = () => {
 
       {/* <Testimonial /> */}
 
-      <div className="m-5">
+      <div className="p-4">
         <h1
           className="text-center "
           style={{
-            marginTop: '130px',
+            marginTop: '100px',
             marginBottom: '40px',
             backgroundColor: 'white',
           }}
