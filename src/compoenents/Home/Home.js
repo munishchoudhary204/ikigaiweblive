@@ -193,8 +193,8 @@ const Home = () => {
         <h1
           className="text-center "
           style={{
-            marginTop: '100px',
-            marginBottom: '40px',
+            paddingTop: '100px',
+            paddingBottom: '40px',
             backgroundColor: 'white',
           }}
         >
