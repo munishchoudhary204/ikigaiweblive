@@ -152,7 +152,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="ikigai-keypoints m-5 text-center">
+      <div
+        className="ikigai-keypoints m-5 text-center"
+        style={{ backgroundColor: 'white' }}
+      >
         <h1 className="text-center">
           How Ikigai Lab is helping you to achieve your goals
         </h1>
@@ -189,7 +192,11 @@ const Home = () => {
       <div className="m-5">
         <h1
           className="text-center "
-          style={{ marginTop: '130px', marginBottom: '40px' }}
+          style={{
+            marginTop: '130px',
+            marginBottom: '40px',
+            backgroundColor: 'white',
+          }}
         >
           Testimonials
         </h1>
