@@ -405,7 +405,7 @@ const Home = () => {
 
       <div
         className="js"
-        style={{ marginBottom: '50px', backgroundColor: 'white' }}
+        style={{ paddingBottom: '50px', backgroundColor: 'white' }}
       >
         <Joinus />
       </div>
