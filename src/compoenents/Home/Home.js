@@ -320,9 +320,7 @@ const Home = () => {
                   <i className="fas fa-quote-left"></i> I am really learning a
                   lot and feel like I am ahead of the curve. The teachers at
                   THEIKIGAILAB are great, explaining everything in an
-                  understandable way.
-                  {/* I feel great about my future in a new
-                    way. */}
+                  understandable way. I feel great about my future in a new way.
                 </p>
               </div>
             </div>
@@ -349,8 +347,8 @@ const Home = () => {
                 >
                   <i className="fas fa-quote-left"></i> The course was very well
                   planned to make the Data science understandable to a fresher
-                  like me. All the mentors were nice to me throughout course.
-                  {/* I was trained with all the industry standard tools. */}
+                  like me. All the mentors were nice to me throughout course. I
+                  was trained with all the industry standard tools.
                   {/* The instructors had in-depth
                     knowledge about the subject and the industry. */}
                 </p>
@@ -381,8 +379,7 @@ const Home = () => {
                   <i className="fas fa-quote-left"></i> This training helps to
                   build my skill set in all prerequisites which are required for
                   becoming a Data Scientist such as Python, Machine Learning
-                  etc.
-                  {/* All the Mentors are very good. */}
+                  etc. All the Mentors are very good.
                   {/* and all have
                     in-depth knowledge of every concept they taught us, and they
                     helped to get introduced with various tools and technologies
