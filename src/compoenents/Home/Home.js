@@ -190,7 +190,7 @@ const Home = () => {
       {/* <Testimonial /> */}
 
       <div
-        className="p-4"
+        className="p-5"
         style={{
           backgroundColor: 'white',
         }}
