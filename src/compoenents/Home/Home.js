@@ -395,10 +395,10 @@ const Home = () => {
       </div>
 
       <div className="associations " style={{ backgroundColor: 'white' }}>
-        <h1 className="text-center " style={{ marginTop: '80px' }}>
+        <h1 className="text-center " style={{ paddingTop: '80px' }}>
           We collaborate with Top leading Universities and Companies
         </h1>
-        <div style={{ marginTop: '80px', height: '60vh' }}>
+        <div style={{ paddingTop: '80px', height: '60vh' }}>
           <Asociate />
         </div>
       </div>
