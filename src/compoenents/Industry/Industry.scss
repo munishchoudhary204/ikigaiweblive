@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 * {
   // box-sizing: border-box;
   margin: 0;
   padding: 0;
-   max-width: '100%'
+  max-width: '100%';
 }
 /* --------------------------------Academics---------------------------------- */
 .Academicsi {
@@ -116,9 +116,8 @@
     .leftside {
       width: 40%;
       background-color: #202330;
-      border: 2px solid #73c4fa;
-      // height: 60vh;
-      height: 56vh;
+      border: 3px solid #73c4fa;
+      height: 58vh;
       img {
         max-width: 100%;
         max-height: 100%;
@@ -163,7 +162,7 @@
   }
 }
 // propersties section---------------------------------
-@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
 .propertiesi {
   // border: 2px solid white;
   height: 80vh;
@@ -207,14 +206,14 @@
       h2 {
         font-size: 18px;
         line-height: 45px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Playfair Display', serif;
       }
 
       p {
         font-size: 20px;
         color: grey;
         font-weight: 200;
-        font-family: "Playfair Display", serif;
+        font-family: 'Playfair Display', serif;
       }
     }
     .propertycardi:nth-child(2) {
