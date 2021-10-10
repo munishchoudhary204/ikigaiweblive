@@ -398,7 +398,13 @@ const Home = () => {
         <h1 className="text-center " style={{ paddingTop: '80px' }}>
           We collaborate with Top leading Universities and Companies
         </h1>
-        <div style={{ paddingTop: '80px', height: '60vh' }}>
+        <div
+          style={{
+            paddingTop: '80px',
+            height: '60vh',
+            backgroundColor: 'white',
+          }}
+        >
           <Asociate />
         </div>
       </div>
