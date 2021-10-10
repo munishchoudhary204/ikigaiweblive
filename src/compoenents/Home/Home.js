@@ -394,7 +394,7 @@ const Home = () => {
         </Carousel>
       </div>
 
-      <div className="associations ">
+      <div className="associations " style={{ backgroundColor: 'white' }}>
         <h1 className="text-center " style={{ marginTop: '80px' }}>
           We collaborate with Top leading Universities and Companies
         </h1>
