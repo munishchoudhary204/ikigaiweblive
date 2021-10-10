@@ -347,10 +347,11 @@ const Home = () => {
                 >
                   <i className="fas fa-quote-left"></i> The course was very well
                   planned to make the Data science understandable to a fresher
-                  like me. All the mentors were nice to me throughout course. I
-                  was trained with all the industry standard tools.
-                  {/* The instructors had in-depth
-                    knowledge about the subject and the industry. */}
+                  like me.
+                  {/* All the mentors were nice to me throughout course. I
+                  was trained with all the industry standard tools. */}
+                  The instructors had in-depth knowledge about the subject and
+                  the industry.
                 </p>
               </div>
             </div>
