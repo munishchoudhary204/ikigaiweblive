@@ -38,11 +38,17 @@ const Program1 = () => {
 
       {/* <Progtest /> */}
 
-      <div className="associationsp ">
-        <h1 className="text-center " style={{ marginTop: '80px' }}>
+      <div className="associationsp " style={{ backgroundColor: 'white' }}>
+        <h1 className="text-center " style={{ paddingTop: '80px' }}>
           We collaborate with Top leading Universities and Companies
         </h1>
-        <div style={{ marginTop: '80px', height: '45vh' }}>
+        <div
+          style={{
+            paddingTop: '80px',
+            height: '60vh',
+            backgroundColor: 'white',
+          }}
+        >
           <Asociates />
         </div>
       </div>
