@@ -122,47 +122,47 @@
     }
   }
 }
-@media (max-width: 500px) {
-  .joinus {
-    height: 140vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    // background-color: cyan;
-    h2 {
-      font-size: 20px;
-      margin-top: 0rem;
-    }
-    justify-content: space-evenly;
-    .jscards {
-      height: 250vh;
-      .jscc {
-        flex-direction: column;
-        height: 100%;
-        justify-content: space-evenly;
-        // background-color: aqua;
-        .imgholder1 {
-          width: 80%;
-          height: 20%;
-          background-color: black;
-        }
-        .imgholder2 {
-          width: 80%;
-          height: 20%;
-          background-color: black;
-        }
-        .imgholder3 {
-          width: 80%;
-          height: 20%;
-          background-color: black;
-        }
-        .imgholder4 {
-          width: 80%;
-          height: 20%;
-          background-color: black;
-        }
-      }
-    }
-  }
-}
+// @media (max-width: 500px) {
+//   .joinus {
+//     height: 140vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     // background-color: cyan;
+//     h2 {
+//       font-size: 20px;
+//       margin-top: 0rem;
+//     }
+//     justify-content: space-evenly;
+//     .jscards {
+//       height: 250vh;
+//       .jscc {
+//         flex-direction: column;
+//         height: 100%;
+//         justify-content: space-evenly;
+//         // background-color: aqua;
+//         .imgholder1 {
+//           width: 80%;
+//           height: 20%;
+//           background-color: black;
+//         }
+//         .imgholder2 {
+//           width: 80%;
+//           height: 20%;
+//           background-color: black;
+//         }
+//         .imgholder3 {
+//           width: 80%;
+//           height: 20%;
+//           background-color: black;
+//         }
+//         .imgholder4 {
+//           width: 80%;
+//           height: 20%;
+//           background-color: black;
+//         }
+//       }
+//     }
+//   }
+// }
