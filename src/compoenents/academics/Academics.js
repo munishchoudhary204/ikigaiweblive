@@ -127,7 +127,7 @@ const Academics = () => {
         <div className="firstprograma">
           <div className="leftside">
             <img
-              src="https://images.unsplash.com/photo-1521999693742-4717d76f97cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+              src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
               alt=""
             />
           </div>
@@ -153,7 +153,7 @@ const Academics = () => {
           </div>
           <div className="leftside">
             <img
-              src="https://images.unsplash.com/photo-1581092336206-b9e5146be6f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80"
               alt=""
             />
           </div>

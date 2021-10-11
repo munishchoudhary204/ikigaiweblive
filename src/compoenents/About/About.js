@@ -1,6 +1,9 @@
 import React from 'react';
 import './About.scss';
 import Asociate from '../Associations/Asociate';
+import mukesh from '../../images/mukesh.jpeg';
+import cktiwari from '../../images/cktiwari.jpeg';
+
 const About = () => {
   return (
     <>
@@ -212,6 +215,40 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <i
+                    class="fab fa-linkedin fa-lg icon-block"
+                    style={{ color: 'blue' }}
+                  ></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="card m-2">
+              <div className="cent">
+                <img className="user-avatar" src={mukesh} alt="" />
+                <h2 className="user-name">Mukesh Kumar</h2>
+                <p className="user-job__title">Cofounder and CEO</p>
+              </div>
+              <div className="endd">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <i
+                    class="fab fa-linkedin fa-lg icon-block"
+                    style={{ color: 'blue' }}
+                  ></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="card m-2">
+              <div className="cent">
+                <img className="user-avatar" src={cktiwari} alt="" />
+                <h2 className="user-name">CK Tiwari</h2>
+                <p className="user-job__title">
+                  Director Industrial Innovation
+                </p>
+              </div>
+              <div className="endd">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <i
                     class="fab fa-linkedin fa-lg icon-block"
                     style={{ color: 'blue' }}
