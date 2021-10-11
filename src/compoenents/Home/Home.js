@@ -408,8 +408,11 @@ const Home = () => {
       </div>
 
       <div
-        className="js"
-        style={{ paddingBottom: '50px', backgroundColor: 'white' }}
+        style={{
+          paddingBottom: '50px',
+          backgroundColor: 'white',
+          marginTop: '130px',
+        }}
       >
         <Joinus />
       </div>
