@@ -411,7 +411,7 @@ const Home = () => {
         style={{
           paddingBottom: '50px',
           backgroundColor: 'white',
-          marginTop: '130px',
+          paddingTop: '130px',
         }}
       >
         <Joinus />
