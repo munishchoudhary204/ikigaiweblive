@@ -1,5 +1,5 @@
-import React from "react";
-import "./Joinus.scss";
+import React from 'react';
+import './Joinus.scss';
 const Joinus = () => {
   return (
     <>
@@ -11,15 +11,19 @@ const Joinus = () => {
         </div>
         <div className="jscards">
           <div className="jscc">
+            <br />
             <div className="imgholder1">
               <h2>Content Creator</h2>
             </div>
+            <br />
             <div className="imgholder2">
               <h2> Instructor</h2>
             </div>
+            <br />
             <div className="imgholder3">
               <h2>Campus Mentor</h2>
             </div>
+            <br />
             <div className="imgholder4">
               <h2> Campus Ambassador</h2>
             </div>

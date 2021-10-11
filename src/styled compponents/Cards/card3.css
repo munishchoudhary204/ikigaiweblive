@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+.cardholder {
+  height: 28rem;
+  width: 30rem;
+}
+
+.card3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 26rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+          box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+  height: 20rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 3rem;
+  margin-top: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 15px;
+  font-family: 'Noto Serif', serif;
+}
+
+.card3 h4 {
+  display: none;
+  font-size: 30px;
+}
+
+.card3 h2 {
+  height: 35px;
+}
+
+.card3:hover {
+  color: white;
+  background: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+}
+
+.card3:hover h4 {
+  display: block;
+}
+
+.card3:hover h2 {
+  display: none;
+}
+/*# sourceMappingURL=card3.css.map */

@@ -1,124 +1,71 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-.four-card-img h1:first-of-type {
-  font-weight: var(--weight1);
-  color: var(--varyDarkBlue);
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.four-card-img h1:last-of-type {
-  color: var(--varyDarkBlue);
+.header-wrapper {
+  background-color: #ffffff;
 }
 
-.four-card-img {
-  background-color: rgb(255, 255, 255);
+.main-info {
+  color: white;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d101e;
 }
 
-@media (max-width: 400px) {
-  .four-card-img h1 {
-    font-size: 1.5rem;
+.main-info h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 72px;
+  background: -webkit-gradient(linear, left top, right top, from(#00c3ff), to(#ffff1c));
+  background: linear-gradient(to right, #00c3ff, #ffff1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 800px) {
+  .main-info h1 {
+    font-size: 25px;
   }
 }
 
-.header {
-  text-align: center;
-  line-height: 0.8;
-  margin-bottom: 50px;
-  margin-top: 100px;
+.main-info .typed-text {
+  font-size: 45px;
+  font-family: 'Noto Serif', serif;
 }
 
-.header p {
-  margin: 0 auto;
-  line-height: 2;
-  color: var(--grayishBlue);
-}
-
-.box p {
-  color: var(--grayishBlue);
-}
-
-.box .end {
-  margin-top: 10px;
-}
-
-.box .end :hover {
-  color: rgb(75, 38, 143);
-}
-
-.box {
-  border-radius: 5px;
-  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
-  padding: 30px;
-  margin: 20px;
-}
-
-@media (max-width: 450px) {
-  .box {
-    height: 260px;
-  }
-  .box .end {
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 950px) and (min-width: 450px) {
-  .box {
-    text-align: center;
-    height: 260px;
-  }
-  .box .end {
-    margin-top: 10px;
-  }
-}
-
-.cyan {
-  border-top: 3px solid var(--cyan);
-}
-.red {
-  border-top: 3px solid var(--red);
-}
-.blue {
-  border-top: 3px solid var(--blue);
-}
-.orange {
-  border-top: 3px solid var(--orange);
-}
-
-.four-card-img h2 {
-  color: var(--varyDarkBlue);
-  font-weight: var(--weight3);
-}
-
-@media (min-width: 950px) {
-  .row1-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .row2-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .box-down {
-    position: relative;
-    top: 150px;
-  }
-  .box {
-    width: 20%;
-  }
-  .header p {
-    width: 30%;
-  }
-}
-
-/* Testimonials */
-.ikigai-keypoints {
+.associations {
   background-color: white;
+  height: 50vh;
 }
+
+h1 {
+  font-family: 'Noto Serif', serif;
+}
+
+h2 {
+  font-family: 'Noto Serif', serif;
+}
+
+h5 {
+  font-family: 'Noto Serif', serif;
+}
+/*# sourceMappingURL=Home.css.map */

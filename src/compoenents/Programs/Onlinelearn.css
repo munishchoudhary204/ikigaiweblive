@@ -1,0 +1,167 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
+.online {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #0d101e;
+  height: 30vh;
+  padding-top: 130px;
+  padding-bottom: 270px;
+}
+
+.online .boxholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+}
+
+.online .boxholder .boxi {
+  border-bottom: 2px solid rgba(0, 151, 251, 0.25);
+  border-left: 2px solid rgba(0, 151, 251, 0.25);
+  border-right: 2px solid rgba(0, 151, 251, 0.25);
+  width: 23%;
+  height: 100%;
+  text-align: center;
+}
+
+.online img {
+  width: 50px;
+  height: 50px;
+}
+
+.online .header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  color: white;
+  font-family: 'Noto-sans';
+}
+
+.online .cyan {
+  border-top: 3px solid var(--cyan);
+}
+
+.online .red {
+  border-top: 3px solid var(--red);
+}
+
+.online .blue {
+  border-top: 3px solid var(--blue);
+}
+
+.online .orange {
+  border-top: 3px solid var(--orange);
+}
+
+.online h2 {
+  color: white;
+  font-family: 'Noto-sans';
+  font-weight: var(--weight2);
+}
+
+@media (max-width: 500px) {
+  .online {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-color: #0d101e;
+    height: 30vh;
+    padding-top: 330px;
+    padding-bottom: 530px;
+  }
+  .online .boxholder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 90%;
+  }
+  .online .boxholder .boxi {
+    border-bottom: 2px solid rgba(0, 151, 251, 0.25);
+    border-left: 2px solid rgba(0, 151, 251, 0.25);
+    border-right: 2px solid rgba(0, 151, 251, 0.25);
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .online img {
+    width: 50px;
+    height: 50px;
+  }
+  .online .header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    color: white;
+    font-family: 'Noto-sans';
+  }
+  .online .cyan {
+    border-top: 3px solid var(--cyan);
+  }
+  .online .red {
+    border-top: 3px solid var(--red);
+  }
+  .online .blue {
+    border-top: 3px solid var(--blue);
+  }
+  .online .orange {
+    border-top: 3px solid var(--orange);
+  }
+  .online h2 {
+    color: white;
+    font-family: 'Noto-sans';
+    font-weight: var(--weight2);
+  }
+}
+/*# sourceMappingURL=Onlinelearn.css.map */

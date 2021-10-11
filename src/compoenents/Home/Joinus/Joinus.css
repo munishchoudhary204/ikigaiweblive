@@ -1,0 +1,260 @@
+.joinus {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65vh;
+}
+
+.joinus h1 {
+  font-family: 'Noto Serif', serif;
+  color: grey;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.joinus h2 {
+  font-family: 'Noto Serif', serif;
+  margin-top: 0.3rem;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.joinus .jscards {
+  height: 50vh;
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.joinus .jscards .jscc {
+  width: 90%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.joinus .jscards .jscc .imgholder1 {
+  width: 23%;
+  height: 80%;
+  border-radius: 2rem;
+  background-image: url(../../../assets/contcre.jpg);
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../../../assets/contcre.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/contcre.jpg);
+}
+
+.joinus .jscards .jscc .imgholder1 h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: 45%;
+  margin-left: 5%;
+}
+
+.joinus .jscards .jscc .imgholder2 {
+  width: 23%;
+  height: 80%;
+  border-radius: 2rem;
+  background-image: url(../../../assets/instructor.jpg);
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../../../assets/instructor.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/instructor.jpg);
+}
+
+.joinus .jscards .jscc .imgholder2 h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: 45%;
+  margin-left: 5%;
+}
+
+.joinus .jscards .jscc .imgholder3 {
+  width: 23%;
+  height: 80%;
+  border-radius: 2rem;
+  background-image: url(../../../assets/campusA.jpg);
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../../../assets/campusA.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/campusA.jpg);
+}
+
+.joinus .jscards .jscc .imgholder3 h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: 45%;
+  margin-left: 5%;
+}
+
+.joinus .jscards .jscc .imgholder4 {
+  width: 23%;
+  height: 80%;
+  border-radius: 2rem;
+  background-image: url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+}
+
+.joinus .jscards .jscc .imgholder4 h2 {
+  color: white;
+  font-size: 25px;
+  margin-top: 45%;
+  margin-left: 5%;
+}
+
+@media (max-width: 500px) {
+  .joinus {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 125vh;
+  }
+  .joinus h1 {
+    font-family: 'Noto Serif', serif;
+    color: grey;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  .joinus h2 {
+    font-family: 'Noto Serif', serif;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+  }
+  .joinus .jscards {
+    height: 95vh;
+    width: 100%;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .joinus .jscards .jscc {
+    width: 90%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .joinus .jscards .jscc .imgholder1 {
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    background-image: url(../../../assets/contcre.jpg);
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../../../assets/contcre.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/contcre.jpg);
+  }
+  .joinus .jscards .jscc .imgholder1 h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+  .joinus .jscards .jscc .imgholder2 {
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    background-image: url(../../../assets/instructor.jpg);
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../../../assets/instructor.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/instructor.jpg);
+  }
+  .joinus .jscards .jscc .imgholder2 h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+  .joinus .jscards .jscc .imgholder3 {
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    background-image: url(../../../assets/campusA.jpg);
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(../../../assets/campusA.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../../../assets/campusA.jpg);
+  }
+  .joinus .jscards .jscc .imgholder3 h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+  .joinus .jscards .jscc .imgholder4 {
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    background-image: url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+  }
+  .joinus .jscards .jscc .imgholder4 h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+}
+/*# sourceMappingURL=Joinus.css.map */

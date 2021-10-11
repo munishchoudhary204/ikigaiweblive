@@ -1,0 +1,189 @@
+.popcards {
+  background: white;
+  padding-top: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 500px) {
+  .popcards {
+    background: white;
+    padding: 30px;
+  }
+}
+
+.popcard {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75vh;
+}
+
+.popcard .preview {
+  background: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 1fr;
+      grid-template-columns: 40% 1fr;
+  grid-gap: 20px;
+  width: 70%;
+  border-radius: 10px;
+  height: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.popcard .left-preview {
+  background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.popcard .right-preview {
+  font-size: 13px;
+  padding: 10px;
+  font-family: 'Manrope', sans-serif;
+  color: #6d7f97;
+  font-weight: 500;
+  text-align: left;
+}
+
+.popcard .right-preview h2 {
+  color: #48556a;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.popcard .right-preview p {
+  line-height: 30px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.popcard .author {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px 1fr 50px;
+      grid-template-columns: 50px 1fr 50px;
+  grid-gap: 10px;
+}
+
+.popcard .name h4 {
+  color: #48556a;
+  font-weight: 700;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.popcard .name p {
+  margin: 0px;
+}
+
+.popcard .avatar img {
+  border-radius: 100%;
+  width: 40px;
+}
+
+.popcard .share-icon {
+  -webkit-transform: translateY(7px) translateX(7px);
+          transform: translateY(7px) translateX(7px);
+}
+
+.popcard .popuptext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popcard .popuptext img {
+  padding: 2px;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.popcard .popuptext p {
+  padding: 3px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.popcard .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background: #ecf2f8;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.popcard .popup img {
+  -webkit-transform: translateX(7px) translateY(7px);
+          transform: translateX(7px) translateY(7px);
+}
+
+.popcard .popup .popuptext {
+  visibility: hidden;
+  width: 190px;
+  background: #48556a;
+  color: #9eafc2;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: -20%;
+  margin-left: -80px;
+  letter-spacing: 3px;
+}
+
+.popcard .popup .popuptext::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #48556a transparent transparent transparent;
+}
+
+.popcard .popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Propcard.css.map */

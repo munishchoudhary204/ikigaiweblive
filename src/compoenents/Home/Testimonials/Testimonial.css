@@ -1,0 +1,94 @@
+.tesiholder {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+
+.tesiholder h1, .tesiholder h3, .tesiholder p {
+  font-family: "Noto-sans";
+}
+
+.tesiholder h1 {
+  margin-top: 2rem;
+  font-size: 42px;
+}
+
+.tesiholder .testcont {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 95%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 2rem;
+}
+
+.tesiholder .testcont .cardcont {
+  width: 95%;
+}
+
+.tesiholder .testcont .cardcont .carddata {
+  border-radius: .3rem;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  height: 60vh;
+  width: 95%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.tesiholder .testcont .cardcont .carddata p {
+  color: grey;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.9rem;
+  font-style: italic;
+  height: 65%;
+  overflow: hidden;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+
+.tesiholder .testcont .cardcont .carddata h3 {
+  border-top: 1px solid black;
+  font-size: 25px;
+  font-weight: 200;
+  padding: .5rem;
+  margin: .5rem;
+}
+/*# sourceMappingURL=Testimonial.css.map */
