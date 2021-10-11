@@ -36,6 +36,9 @@
     padding-top: 490px;
   }
 }
+.keyfeaturs {
+  padding-bottom: 90px;
+}
 // ----------------------Card4-----------------------------------------
 .widecard {
   width: 50%;
@@ -60,6 +63,11 @@
   align-items: center;
   // border: 2px solid white;
   padding: 2rem;
+  .progholder :hover {
+    border: 2px solid rgba(0, 151, 251, 0.25);
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+    box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+  }
   .progholder {
     // border: 2px solid white;
     width: 75%;
@@ -82,15 +90,18 @@
     //  align-items: center;
     border-radius: 1rem;
     text-align: left;
+
     h3 {
       font-size: 24px;
       font-weight: 100;
       font-family: 'Noto Serif', serif;
+      pointer-events: none;
     }
     p {
       font-size: 16px;
       font-weight: 100;
       font-family: 'Noto Serif', serif;
+      pointer-events: none;
     }
   }
 }
@@ -121,8 +132,9 @@
 
 // --------------------program details--------------------------------
 .programdetailasa {
-  background-color: #0d101e;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding-bottom: 40px;
   h2 {
     font-weight: 600;
     line-height: 1;
@@ -136,7 +148,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 90vh;
+    height: 73vh;
+    padding-top: 50px;
     .leftside {
       width: 40%;
       background-color: #202330;
@@ -199,27 +212,28 @@
 .joinnowa {
   background-color: #0d101e;
   color: white;
-  height: 40vh;
-  padding-bottom: 90px;
+  height: 60vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  h1 {
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 20px;
-  }
+
+  // h1 {
+  //   line-height: 40px;
+  // }
   button {
     color: white;
+    font-size: 20px;
     background-color: #202330;
     border: 2px solid rgba(0, 151, 251, 0.15);
-    height: 25%;
-    width: 20%;
+    width: 18%;
+    justify-content: center;
+    align-items: center;
     border-radius: 2rem;
+    margin-bottom: 5vh;
     cursor: pointer;
+    font-family: 'Noto Serif', serif;
     &:hover {
       border: 2px solid rgba(0, 151, 251, 0.25);
       box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
@@ -228,7 +242,7 @@
 }
 @media (max-width: 500px) {
   .joinnowa {
-    padding-top: 50px;
+    // padding-top: 30px;
     h1 {
       line-height: 20px;
       font-size: 18px;

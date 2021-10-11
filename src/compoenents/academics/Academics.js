@@ -1,30 +1,30 @@
-import React from "react";
-import Button1 from "../../styled compponents/Buttons/Button1";
-import "./Academics.scss";
-import Acess from "../../assets/access.png";
-import Innov from "../../assets/innov.png";
-import { Row, Col, Card, Container, CardGroup } from "react-bootstrap";
+import React from 'react';
+import Button1 from '../../styled compponents/Buttons/Button1';
+import './Academics.scss';
+import Acess from '../../assets/access.png';
+import Innov from '../../assets/innov.png';
+import { Row, Col, Card, Container, CardGroup } from 'react-bootstrap';
 
 const IkigaiKeypoints = [
   {
-    title: "Transformative",
-    text: "Students have the opportunity to work on real-life projects for companies.",
-    src: "https://image.flaticon.com/icons/png/512/1925/1925161.png",
+    title: 'Transformative',
+    text: 'Students have the opportunity to work on real-life projects for companies.',
+    src: 'https://image.flaticon.com/icons/png/512/1925/1925161.png',
   },
   {
-    title: "Accessible",
-    text: "Students can learn from the best in the industry at their own pace with their college education.",
+    title: 'Accessible',
+    text: 'Students can learn from the best in the industry at their own pace with their college education.',
     src: Acess,
   },
   {
-    title: "Innovative",
-    text: "Top Students and their projects have the chance to be featured on our blog, Github, or even the Ikigai Lab website.",
+    title: 'Innovative',
+    text: 'Top Students and their projects have the chance to be featured on our blog, Github, or even the Ikigai Lab website.',
     src: Innov,
   },
   {
-    title: "Job Ready",
-    text: "Students are able to enter the market of new technologies with an in-demand skill set that will make them stand out from the crowd.",
-    src: "https://image.flaticon.com/icons/png/512/2942/2942821.png",
+    title: 'Job Ready',
+    text: 'Students are able to enter the market of new technologies with an in-demand skill set that will make them stand out from the crowd.',
+    src: 'https://image.flaticon.com/icons/png/512/2942/2942821.png',
   },
 ];
 
@@ -50,7 +50,7 @@ const Academics = () => {
           <div className="programcard">
             <h3>Augmented B.Tech AI</h3>
             <p>
-              {" "}
+              {' '}
               Industry Relevant Subjects augmented with existing B.Tech/B.Tech
               AI
             </p>
@@ -79,10 +79,18 @@ const Academics = () => {
 
       <div
         className="keyfeaturs"
-        style={{ backgroundColor: "#0D101E", color: "white" }}
+        style={{ backgroundColor: '#0D101E', color: 'white' }}
       >
         <div className="  mx-5">
-          <h1 className="text-center">Program Features</h1>
+          <h1
+            className="text-center"
+            style={{
+              paddingTop: '30px',
+              paddingBottom: '30px',
+            }}
+          >
+            Program Features
+          </h1>
           <br />
           <br />
           <Container fluid>
@@ -91,11 +99,11 @@ const Academics = () => {
                 <CardGroup>
                   <Card
                     style={{
-                      backgroundColor: "#202330",
-                      color: "white",
-                      borderRadius: "10px",
+                      backgroundColor: '#202330',
+                      color: 'white',
+                      borderRadius: '10px',
                     }}
-                    className="py-5 shadow "
+                    className="py-3 shadow "
                   >
                     <Card.Body>
                       <img src={item.src} height="50px" width="50px" />
@@ -168,15 +176,19 @@ const Academics = () => {
         </div>
       </div>
       <div className="joinnowa">
-        <h1 className="text-center">
+        <h1
+          className="text-center"
+          style={{
+            paddingTop: '20vh',
+            fontFamily: "'Noto Serif', serif",
+          }}
+        >
           Find out how Ikigai Lab can help you <br /> in creating skill and
           applied research ecosystem <br /> at your institution.
         </h1>
         <br />
         <br />
-        <button>
-          <h2>Schedule a Meeting</h2>
-        </button>
+        <button>Schedule a Meeting</button>
       </div>
     </>
   );

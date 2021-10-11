@@ -5,7 +5,7 @@ import './Industries.scss';
 const Industries = () => {
   return (
     <>
-      <div className="Academics">
+      <div className="Industiess">
         <div className="text-center">
           <h1>Reap the value of AI through our Capability building Platform</h1>
           <br /> <br />
@@ -82,8 +82,8 @@ const Industries = () => {
         </div>
       </div>
 
-      <div className="programdetails">
-        <div className="firstprogram">
+      <div className="programdetailasa">
+        <div className="firstprograma">
           <div className="leftside">
             <img
               src="https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -112,7 +112,7 @@ const Industries = () => {
             </p>
           </div>
         </div>
-        <div className="firstprogram">
+        <div className="firstprograma">
           <div className="rightside">
             <h3>Outcome Based Learning</h3>
             <h2>All the programs have specific learning outcomes.</h2> <br />
@@ -138,7 +138,7 @@ const Industries = () => {
             />
           </div>
         </div>
-        <div className="firstprogram">
+        <div className="firstprograma">
           <div className="leftside">
             <img
               src="https://images.pexels.com/photos/8353802/pexels-photo-8353802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -169,15 +169,19 @@ const Industries = () => {
       </div>
 
       <div className="joinnowa">
-        <h1 className="text-center">
+        <h1
+          className="text-center"
+          style={{
+            paddingTop: '20vh',
+            fontFamily: "'Noto Serif', serif",
+          }}
+        >
           Find out how Ikigai Lab can help you <br /> in creating skill and
           applied research ecosystem <br /> at your institution.
         </h1>
         <br />
         <br />
-        <button>
-          <h2>Schedule a Meeting</h2>
-        </button>
+        <button>Schedule a Meeting</button>
       </div>
     </>
   );

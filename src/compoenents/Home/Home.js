@@ -62,6 +62,33 @@ const IkigaiKeypoints = [
   },
 ];
 
+const Ikigaimain = [
+  {
+    title: 'Individuals',
+    image: 'https://assets.codepen.io/2301174/icon-supervisor.svg',
+    text: 'For Students and  Professionals',
+    link: '/individual',
+  },
+  {
+    title: 'Academics',
+    image: 'https://assets.codepen.io/2301174/icon-team-builder.svg',
+    text: 'For Institutions',
+    link: '/academics',
+  },
+  {
+    title: 'Industry',
+    image: 'https://assets.codepen.io/2301174/icon-calculator.svg',
+    text: 'For Businesses',
+    link: '/industry',
+  },
+  {
+    title: 'Government',
+    image: government,
+    text: 'For Government Institutions',
+    link: '/government',
+  },
+];
+
 const Home = () => {
   return (
     <>
@@ -84,79 +111,58 @@ const Home = () => {
       </div>
       {/* </div> */}
 
-      <div className="four-card-img text-center">
-        <div class="row1-container">
-          <div class="box box-down cyan" style={{ backgroundColor: 'white' }}>
-            <h2>Individuals</h2>
-            <p>Students and Working Professionals</p>
-            <img
-              src="https://assets.codepen.io/2301174/icon-supervisor.svg"
-              alt=""
-            />
-            <div className="end">
-              <Link
-                to="/program1"
-                style={{ color: 'Blue', textDecoration: 'none' }}
-              >
-                Explore more <p className="far fa-arrow-alt-circle-right "></p>
-              </Link>
-            </div>
-          </div>
-          <div class="box red" style={{ backgroundColor: 'white' }}>
-            <h2>Academics</h2>
-            <p>For Institutions</p>
-            <img
-              src="https://assets.codepen.io/2301174/icon-team-builder.svg"
-              alt=""
-            />
-            <div className="end">
-              <Link
-                to="/academics"
-                style={{ color: 'Blue', textDecoration: 'none' }}
-              >
-                Explore more <p className="far fa-arrow-alt-circle-right "></p>
-              </Link>
-            </div>
-          </div>
-          <div class="box box-down blue" style={{ backgroundColor: 'white' }}>
-            <h2>Industry</h2>
-            <p>For Businesses</p>
-            <img
-              src="https://assets.codepen.io/2301174/icon-calculator.svg"
-              alt=""
-            />
-            <div className="end">
-              <Link
-                to="/industry"
-                style={{ color: 'Blue', textDecoration: 'none' }}
-              >
-                Explore more <p className="far fa-arrow-alt-circle-right "></p>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div class="row2-container">
-          <div class="box orange" style={{ backgroundColor: 'white' }}>
-            <h2>Government</h2>
-            <p>For Government Institutions</p>
-            <img src={government} height="70px" alt="" />
-            <div className="end">
-              <Link
-                to="/government"
-                style={{ color: 'Blue', textDecoration: 'none' }}
-              >
-                Explore more <p className="far fa-arrow-alt-circle-right "></p>
-              </Link>
-            </div>
-          </div>
-        </div>
+      <div
+        className="ikigai-keypoints p-5 text-center"
+        style={{ backgroundColor: 'white' }}
+      >
+        <br />
+        <br />
+        <Container fluid>
+          <Row xs={1} md={4} className="g-4">
+            {Ikigaimain.map((item, idx) => (
+              <CardGroup>
+                <Card
+                  style={{
+                    borderRadius: '5%',
+                  }}
+                  className="py-3 shadow "
+                >
+                  <Card.Body>
+                    <Card.Title>
+                      <h4>
+                        <b>{item.title}</b>
+                      </h4>
+                    </Card.Title>
+                    <Card.Text>{item.text}</Card.Text>
+                    <hr />
+                    <img src={item.image} height="70px" alt="keyp" />
+                  </Card.Body>
+                  <Link
+                    to={item.link}
+                    style={{ color: 'Blue', textDecoration: 'none' }}
+                  >
+                    Explore more{' '}
+                    <p className="far fa-arrow-alt-circle-right "></p>
+                  </Link>
+                </Card>
+              </CardGroup>
+            ))}
+          </Row>
+        </Container>
       </div>
 
       <div
         className="ikigai-keypoints p-5 text-center"
         style={{ backgroundColor: 'white' }}
       >
-        <h1 className="text-center">
+        <h1
+          className="text-center"
+          style={{
+            paddingTop: '20px',
+            paddingBottom: '40px',
+            backgroundColor: 'white',
+          }}
+        >
           How Ikigai Lab is helping you to achieve your goals
         </h1>
         <br />
@@ -198,7 +204,7 @@ const Home = () => {
         <h1
           className="text-center "
           style={{
-            paddingTop: '90px',
+            paddingTop: '20px',
             paddingBottom: '40px',
             backgroundColor: 'white',
           }}
@@ -393,7 +399,7 @@ const Home = () => {
       </div>
 
       <div className="associations " style={{ backgroundColor: 'white' }}>
-        <h1 className="text-center " style={{ paddingTop: '80px' }}>
+        <h1 className="text-center " style={{ paddingTop: '40px' }}>
           We collaborate with Top leading Universities and Companies
         </h1>
         <div

@@ -1,3 +1,36 @@
+.Industiess {
+  background-color: #0d101e;
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+  color: #f0f5ff;
+  // border: 2px solid white;
+  h1 {
+    font-size: 60px;
+    padding: 0 92px 0 92px;
+    // text-shadow: 0px 0px 20px #3485e4; clear: both;
+  }
+  h5 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .Industiess {
+    h1 {
+      font-size: 24px;
+    }
+    h5 {
+      font-size: 18px;
+    }
+  }
+
+  .keyfeaturs {
+    padding-top: 490px;
+  }
+}
+
 //stats section---------------------------------
 .statsi {
   background-color: #0d101e;
@@ -137,6 +170,11 @@
   align-items: center;
   // border: 2px solid white;
   padding: 2rem;
+  .progholderin :hover {
+    border: 2px solid rgba(0, 151, 251, 0.25);
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+    box-shadow: 0px 4px 20px rgba(0, 151, 251, 0.25);
+  }
   .progholderin {
     // border: 2px solid white;
     width: 75%;
@@ -164,11 +202,13 @@
       font-size: 24px;
       font-weight: 100;
       font-family: 'Noto Serif', serif;
+      pointer-events: none;
     }
     p {
       font-size: 16px;
       font-weight: 100;
       font-family: 'Noto Serif', serif;
+      pointer-events: none;
     }
   }
 }
